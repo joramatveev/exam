@@ -16,7 +16,3 @@
 
 # RSA
 *.rsa
-
-# GO MOD
-go.sum
-go.mod

@@ -1,0 +1,70 @@
+#sidebar-modal {
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+
+    width: 186px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 10px 15px -3px rgba(0, 0, 0, 0.12), 0px 4px 6px -2px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+.todo-list-item {
+    height: 25px;
+    min-width: 25px;
+    padding: 0 5px;
+    background: #faf1c6;
+    margin-right: 17px;
+}
+
+.todo-list-item {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #3c3308;
+}
+
+.todo-list-item-focused {
+    background: #FFFFFF !important;
+}
+
+.todo-list-item-focused input {
+    background: #FFFFFF !important;
+    color: #6D6C5F;
+}
+
+.todo-list-item-input {
+    background: #fcd620;
+    color: #000;
+    font-size: 16px !important;
+}
+
+.todo-list-item-input {
+    color: #000;
+    font-size: 14px;
+}
+
+.todo-list-item input,
+.todo-list-item input:focus {
+    background: #fcd620;
+    height: auto;
+    border: none;
+}
+
+.todo-item-add-btn {
+    display: block;
+    width: 36px;
+    height: 21px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+
+    /* or 24px */
+
+    color: #FCD000;
+}

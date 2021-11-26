@@ -1,0 +1,20 @@
+.todo-list-options-modal {
+    width: 186px;
+    height: 150px;
+    font-family: 'Noto Sans';
+}
+
+.options-modal-title {
+    height: 40px;
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.todo-list-options-modal input {
+    margin-top: 7px;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    padding: 3px 7px;
+}
